@@ -1,0 +1,30 @@
+{
+  "name": "fbox",
+  "version": "1.0.0",
+  "description": "Flexbox Component for React. Powered by Styled-Components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nantaphop/fbox.git"
+  },
+  "keywords": [
+    "flexbox",
+    "style",
+    "styled-components",
+    "layout"
+  ],
+  "author": "Nantaphop Phuengphae",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nantaphop/fbox/issues"
+  },
+  "homepage": "https://github.com/nantaphop/fbox#readme",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "styled-components": "^2.1.0"
+  }
+}
