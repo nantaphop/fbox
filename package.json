@@ -2,9 +2,13 @@
   "name": "fbox",
   "version": "1.0.0",
   "description": "Flexbox Component for React. Powered by Styled-Components.",
-  "main": "index.js",
+  "files": ["dist/"],
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "prepublish": "npm run build",
+    "postpublish": "git push origin master --follow-tags"
   },
   "repository": {
     "type": "git",
@@ -26,5 +30,11 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "styled-components": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
   }
 }
