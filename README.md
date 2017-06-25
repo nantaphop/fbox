@@ -14,7 +14,7 @@ padding: 10px;
 with FBox you can just write...
 
 ```
-<FBox center alignCenter p="10px">.....</FBox>
+<FBox row center alignCenter p="10px">.....</FBox>
 ```
 
 # Installation
