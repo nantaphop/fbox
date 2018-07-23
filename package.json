@@ -1,6 +1,6 @@
 {
   "name": "fbox",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Flexbox Component for React. Powered by Styled-Components.",
   "files": [
     "dist/"
