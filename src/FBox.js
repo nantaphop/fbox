@@ -10,6 +10,7 @@ const alignItems = toAttr('align-items')
 const alignSelf = toAttr('align-self')
 const alignContent = toAttr('align-content')
 const flexGrow = toAttr('flex-grow')
+const flex = toAttr('flex')
 const flexShrink = toAttr('flex-shrink')
 const flexWrap = toAttr('flex-wrap')
 
@@ -47,6 +48,11 @@ const FBox = styled.div`
     ${flexGrow('grow3', '3')}
     ${flexGrow('grow4', '4')}
     ${flexGrow('grow5', '5')}
+    ${flexGrow('flex1', '1')}
+    ${flexGrow('flex2', '2')}
+    ${flexGrow('flex3', '3')}
+    ${flexGrow('flex4', '4')}
+    ${flexGrow('flex5', '5')}
     ${flexGrow('shrink1', '1')}
     ${flexGrow('shrink2', '2')}
     ${flexGrow('shrink3', '3')}
