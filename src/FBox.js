@@ -48,11 +48,11 @@ const FBox = styled.div`
     ${flexGrow('grow3', '3')}
     ${flexGrow('grow4', '4')}
     ${flexGrow('grow5', '5')}
-    ${flexGrow('flex1', '1')}
-    ${flexGrow('flex2', '2')}
-    ${flexGrow('flex3', '3')}
-    ${flexGrow('flex4', '4')}
-    ${flexGrow('flex5', '5')}
+    ${flex('flex1', '1')}
+    ${flex('flex2', '2')}
+    ${flex('flex3', '3')}
+    ${flex('flex4', '4')}
+    ${flex('flex5', '5')}
     ${flexGrow('shrink1', '1')}
     ${flexGrow('shrink2', '2')}
     ${flexGrow('shrink3', '3')}
