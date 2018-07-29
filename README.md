@@ -75,6 +75,11 @@ Props that is string type you have to add value to FBox like this `<FBox backgro
 | Boolean | grow3 | flex-grow: 3;
 | Boolean | grow4 | flex-grow: 4;
 | Boolean | grow5 | flex-grow: 5;
+| Boolean | flex1 | flex: 1;
+| Boolean | flex2 | flex: 2;
+| Boolean | flex3 | flex: 3;
+| Boolean | flex4 | flex: 4;
+| Boolean | flex5 | flex: 5;
 | Boolean | shrink1 | flex-shrink: 1;
 | Boolean | shrink2 | flex-shrink: 2;
 | Boolean | shrink3 | flex-shrink: 3;
